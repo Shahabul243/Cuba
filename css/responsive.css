@@ -1,0 +1,67 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	/***************CODE START*****************/
+
+	.header-section{
+		padding: 30px 0px;
+	}
+	.logo {
+    width: 30%;
+	}
+	.inner-menu {
+    width: 93%;
+	}
+	.inner-banner{
+		padding-top: 30px;
+	}
+	.inner-menu ul li a {
+    padding: 7px 8px;
+    font-size: 14px;
+    line-height: 18px;
+    background-color: transparent;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 5px;
+	}
+	.inner-banner h1 {
+    font-size: 34px;
+    line-height: 28px;
+    font-weight: 500;
+	}
+	.inner-banner .btn-info{
+	margin: 30px 0px 1px 0px;
+	}
+
+	/***************CODE END*****************/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767) {
+	/***************CODE START*****************/
+
+	.inner-banner h1 {
+    font-size: 26px;
+    line-height: 38px;
+    font-weight: 600;
+	}
+
+	/***************CODE END*****************/
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	/***************CODE START*****************/
+	/***************CODE END*****************/
+}
